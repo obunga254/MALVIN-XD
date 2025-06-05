@@ -7,9 +7,9 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "",
-// add your Session Id make sure it starts with malvin~
+// add ymalvin~tjsGzKpD#Qp0KOveZNcsd_Fiz9ZD3A2-zOCz4i4NXmHXgfvcGiBsour Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
-// add your prifix for bot   
+// add you.r prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "ᴍᴀʟᴠɪɴ-xᴅ",
 // add bot name here for menu
 MODE: process.env.MODE || "public",
@@ -20,12 +20,12 @@ LINK_WHITELIST: "youtube.com,github.com",
     LINK_WARN_LIMIT: 3, // Number of warnings before action
 
     LINK_ACTION: "kick", // "kick", "mute", or "none"
-
+kick
         AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
-// make true or false status auto seen
+true
 
         AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
-// make true if you want auto reply on status 
+// make true if you want auto reply on status false
 
         AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
